@@ -5,7 +5,7 @@
 
 + The size of images is 96 * 96.  
 + We use MobileNet V2 with ArcFace.  
-+ we measure the processing time on Colaboratory(Tesla P4).
++ We measure the processing time on Colaboratory(Tesla P4).
 
 ## Original paper
 Coming soon.
