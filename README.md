@@ -18,7 +18,7 @@ Coming soon.
 
 ### More faster(Raspberry Pi)
 + Change MobileNet V2 to V3
-+ Change Raspberry Pi3 V2 to Pi4
++ Change Raspberry Pi3 to Pi4
 
 ## Special thanks
 + [janken_dataset](https://github.com/karaage0703/janken_dataset)
