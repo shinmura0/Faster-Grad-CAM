@@ -23,7 +23,7 @@ We changed below.
 + Opencv 3.4.3.18
 + RapberryPi3 modelB(below result) or PC
 
-![gif1]( "gif1")
+![gif1](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/heatmap.gif "gif1")
 
 ```
 python3 janken_demo.py
@@ -31,7 +31,7 @@ python3 janken_demo.py
 
 press [s] to change below mode(like ObjectDetection).
 
-![gif2]( "gif2")
+![gif2](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/like_ObjectDetection.gif "gif2")
 
 ## Method
 Coming soon.
