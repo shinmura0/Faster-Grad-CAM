@@ -9,20 +9,38 @@ Upper result is...
 + We measured the processing time on Colaboratory(Tesla P4).
 
 ## Based paper
-*Coming soon.*  
+*[Adapting Grad-CAM for Embedding Networks(arXiv, Jan 2020)](https://arxiv.org/abs/2001.06538)*  
 
-We change below.
+We changed below.
 + change Triplet to ArcFace.  
 + change k-means clusters(from 50 to 10).
 
+
 ## Usage(Janken Demo)
++ Keras 2.2.4
++ TensorFlow 1.9.0
++ sklearn 0.19.0
++ Opencv 3.4.3.18
++ RapberryPi3 modelB(below result) or PC
+
+![gif1]( "gif1")
+
+```
+python3 janken_demo.py
+```
+
+press [s] to change below mode(like ObjectDetection).
+
+![gif2]( "gif2")
+
+## Method
 Coming soon.
 
 ## Procedure of training
-Coming soon.
+Look at **Train_Faster-Grad-CAM.ipynb**
 
 ### More faster(Raspberry Pi)
-+ Change MobileNet V2 to V3.Because V3 is faster than V2 on CPU.
++ Change MobileNet V2 to V3. Because V3 is faster than V2 on CPU.
 + Change Raspberry Pi3 to Pi4(or JetsonNANO).
 
 ## Special thanks
