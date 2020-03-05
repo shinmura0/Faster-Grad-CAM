@@ -23,13 +23,13 @@ We changed below.
 + Opencv 3.4.3.18
 + RapberryPi3 modelB(below result) or PC
 
-![gif1](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/heatmap.gif "gif1")
-
 command below
 
 ```
 python3 janken_demo.py
 ```
+
+![gif1](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/heatmap.gif "gif1")
 
 press [s] to change below mode(like ObjectDetection).
 
@@ -48,7 +48,7 @@ Look at **Train_Faster-Grad-CAM.ipynb**
 
 ## Application examples
 1.Anomaly detection  
-When you use [Self-supervised-learning](https://medium.com/analytics-vidhya/spotting-defects-deep-metric-learning-solution-for-mvtec-anomaly-detection-dataset-c77691beb1eb), anomaly region is visualised by using Faster-Grad-CAM.  
+When you use [Self-supervised-learning](https://medium.com/analytics-vidhya/spotting-defects-deep-metric-learning-solution-for-mvtec-anomaly-detection-dataset-c77691beb1eb), anomaly region is visualized by using Faster-Grad-CAM.  
 Next example is that circle is normal.
 
 ![fig3](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/normal_image.png "normal")  
