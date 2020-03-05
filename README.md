@@ -44,6 +44,22 @@ Look at **Train_Faster-Grad-CAM.ipynb**
 ### More faster(Raspberry Pi)
 + Change MobileNet V2 to V3. Because V3 is faster than V2 on CPU.
 + Change Raspberry Pi3 to Pi4(or JetsonNANO).
++ Quantization like [this](https://github.com/PINTO0309/PINTO_model_zoo/tree/master/15_Faster-Grad-CAM).
+
+## Application examples
+1.Anomaly detection  
+When you use [Self-supervised-learning](https://medium.com/analytics-vidhya/spotting-defects-deep-metric-learning-solution-for-mvtec-anomaly-detection-dataset-c77691beb1eb), anomaly region is visualised by using Faster-Grad-CAM.  
+Next example is that circle is normal.
+
+![fig3](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/normal_image.png "normal")  
+
+And extra line or missing line is anomaly image.
+
+![fig4](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/anomaly_detection.png "anomaly")  
+
+Realtime visualization is like this(Coming soon).
+
+2.[Auto-Annotation](https://github.com/shinmura0/Auto-Annotation)
 
 ## Special thanks
 + [janken_dataset](https://github.com/karaage0703/janken_dataset)(karaage0703)
