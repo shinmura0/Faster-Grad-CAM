@@ -4,7 +4,7 @@
 ![fig1](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/janken.png "fig1")
 
 Upper result is...
-+ The size of images is 96 * 96.  
++ The size of images is 96-96.  
 + We used MobileNet V2 with ArcFace.  
 + We measured the processing time on Colaboratory(Tesla P4).
 
@@ -57,9 +57,12 @@ And extra line or missing line is anomaly image.
 
 ![fig4](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/anomaly_detection.png "anomaly")  
 
-Realtime visualization is like this(Coming soon).
+Upper result is that **only normal images** is used in trainging!  
+Realtime visualization is like below.(coming soon)
 
-2.[Auto-Annotation](https://github.com/shinmura0/Auto-Annotation)
+2.[Auto-Annotation](https://github.com/shinmura0/Auto-Annotation)  
+Auto-Annotation is based Grad-CAM and Bayesian optimization.  
+When you use Faster-Grad-CAM instead of Grad-CAM, you reduce total time by **25%**(from 20sec to 15sec).
 
 ## Special thanks
 + [janken_dataset](https://github.com/karaage0703/janken_dataset)(karaage0703)
