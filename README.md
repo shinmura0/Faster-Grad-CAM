@@ -58,7 +58,11 @@ And extra line or missing line is anomaly image.
 ![fig4](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/anomaly_detection.png "anomaly")  
 
 Upper result is that **only normal images** is used in trainging!  
-Realtime visualization is like below.(coming soon)
+Realtime visualization is like below.
+
+![fig5](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/anomaly_detection.gif "anomaly_realtime")  
+
+You can do **anomaly detection and visualization at the same time.**
 
 2.[Auto-Annotation](https://github.com/shinmura0/Auto-Annotation)  
 Auto-Annotation is based Grad-CAM and Bayesian optimization.  
