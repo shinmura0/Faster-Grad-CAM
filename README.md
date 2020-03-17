@@ -36,7 +36,11 @@ press [s] to change below mode(like ObjectDetection).
 ![gif2](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/like_ObjectDetection.gif "gif2")
 
 ## Method
-Coming soon.
+Detail is [here](https://qiita.com/shinmura0/items/a8668cec387e08308209)(Japanese).
+![f1](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/step1.png "f1")
+![f2](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/step2.png "f2")
+![f3](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/step3.png "f3")
+![f4](https://github.com/shinmura0/Faster-Grad-CAM/blob/master/images/step4.png "f4")
 
 ## Procedure of training
 Look at **Train_Faster-Grad-CAM.ipynb**
